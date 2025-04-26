@@ -1,0 +1,540 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (min-width: 968px) {
+    #checkbtn {
+        display: none;
+    }
+
+    .left {
+        position: fixed;
+        background-color: #bd5d38;
+        width: 17rem;
+        height: 100vh;
+    }
+
+    #nav-side {
+        padding-top: 190px;
+        text-align: center;
+        font-size: 17px;
+        font-weight: 700;
+        letter-spacing: .05rem;
+        text-transform: uppercase;
+    }
+
+    #nav-side ul {
+        list-style: none;
+    }
+
+    #nav-side li {
+        padding-top: 20px;
+    }
+
+    #nav-side a {
+        color: rgba(255, 255, 255, .5);
+        text-decoration: none;
+    }
+
+    #nav-side a:hover {
+        color: rgba(255, 255, 255, 0.719);
+    }
+
+    .right {
+        padding-left: 17rem;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    #about h1 {
+        font-size: 3.5rem;
+        text-transform: uppercase;
+        padding-left: 50px;
+        color: #343a40;
+    }
+
+    #about {
+        margin-bottom: 120px;
+        padding-top: 120px;
+    }
+
+    #about .p1 {
+        width: 85%;
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding-left: 60px;
+        color: #8b8b8b;
+    }
+
+    #about .para p {
+        font-size: 1.25rem;
+        padding-top: 15px;
+        width: 90%;
+        font-weight: 400;
+        color: #8b8b8b;
+        margin-left: 60px;
+    }
+
+    #about .container p {
+        color: #6b6969;
+        padding-left: 60px;
+        font-size: 25px;
+        font-weight: 500;
+        padding-top: 40px
+    }
+
+    .icons {
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+
+    #education {
+        padding-top: 200px;
+        margin-bottom: 200px;
+    }
+
+    .first h1 {
+        color: #343a40;
+        font-size: 3rem;
+        margin-left: 50px;
+    }
+
+    .first p {
+        width: 80%;
+        margin-top: 30px;
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding-left: 50px;
+        color: #8b8b8b;
+    }
+    .second p {
+        width: 80%;
+        margin-top: 10px;
+        margin-left: 50px;
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: #8b8b8b;
+    }
+
+    .third p {
+        margin-top: 30px;
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: #bd5d38;
+        margin-left: 50px;
+    }
+
+    #skills {
+        padding-top: 120px;
+        margin-bottom: 200px;
+    }
+
+    #skills .extra {
+        margin-left: 50px;
+
+    }
+
+    #skills .extra ul {
+        list-style: none;
+        padding-top: 25px;
+        color: #8b8b8b;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    #skills .extra ul span {
+        color: #495057;
+    }
+
+    .one h1 {
+        color: #343a40;
+        font-size: 3.5rem;
+        margin-left: 50px;
+    }
+
+    .two p {
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: #8b8b8b;
+        font-size: 22px;
+        margin-top: 15px;
+        color: #495057;
+        text-transform: uppercase;
+        margin-left: 50px;
+    }
+
+    .three {
+        display: flex;
+        margin-left: 50px;
+        gap: 25px;
+        margin-top: 40px;
+    }
+
+    .three svg {
+        width: 45px;
+    }
+
+    .three1 svg {
+        width: 65px;
+    }
+
+    .three2 svg {
+        width: 50px;
+    }
+
+    #expertise {
+        padding-top: 200px;
+        margin-bottom: 190px;
+    }
+
+    .a h1 {
+        color: #343a40;
+        font-size: 3.5rem;
+        margin-left: 50px;
+    }
+
+    #expertise ul {
+        margin-left: 80px;
+        margin-top: 30px;
+        font-size: 18px;
+        color: #495057;
+        font-weight: 400;
+    }
+
+    #courses {
+        padding-top: 220px;
+        margin-bottom: 230px;
+    }
+
+    .alif h1 {
+        color: #343a40;
+        font-size: 3.5rem;
+        margin-left: 50px;
+    }
+
+    #courses ul {
+        margin-left: 80px;
+        margin-top: 30px;
+        font-size: 18px;
+        color: #495057;
+        font-weight: 400;
+    }
+
+}
+
+@media (max-width: 968px) {
+    #about {
+        margin-bottom: 150px;
+        padding-top: 150px;
+    }
+
+    #about h1 {
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        padding-left: 20px;
+        color: #343a40;
+    }
+
+    #about .p1 {
+        padding-top: 10px;
+        padding-left: 25px;
+        color: #8b8b8b;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    #about .para p {
+        color: #8b8b8b;
+        width: 85%;
+        font-size: 1.2rem;
+        padding-left: 25px;
+        padding-top: 10px;
+        font-weight: 400;
+    }
+
+    .container p {
+        color: #6b6969;
+        padding-left: 25px;
+        font-size: 23px;
+        font-weight: 500;
+        padding-top: 25px;
+    }
+
+    .icons {
+        margin-top: 25px;
+        margin-left: 20px;
+    }
+
+    #checkbtn {
+        display: block;
+    }
+
+    nav ul {
+        transition: all .5s ease;
+        letter-spacing: .05rem;
+        width: 100%;
+        height: 46vh;
+        background-color: #bd5d38;
+        position: fixed;
+        left: -100%;
+        top: 46px;
+    }
+    .logo {
+
+        color: #fff;
+        font-size: 17px;
+        font-weight: 400;
+        float: left;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .left {
+        position: fixed;
+        background-color: #bd5d38;
+        width: 100%;
+        height: 60px;
+    }
+
+    #nav-side {
+        text-align: center;
+        font-size: 15px;
+        font-weight: 800;
+        letter-spacing: .05rem;
+    }
+
+    #nav-side ul {
+        list-style: none;
+        
+        text-transform: uppercase;
+    }
+
+    #nav-side li {
+        padding-top: 20px;
+    }
+
+    #nav-side a {
+        color: rgba(255, 255, 255, .5);
+        text-decoration: none;
+    }
+
+    #education {
+        padding-top: 150px;
+        margin-bottom: 240px;
+    }
+
+    .first h1 {
+        color: #343a40;
+        font-size: 2rem;
+        margin-left: 20px;
+    }
+
+    .first p {
+        margin-top: 30px;
+        font-size: 1.1rem;
+        font-weight: 500;
+        padding-left: 20px;
+        color: #8b8b8b;
+
+    }
+
+    .second p {
+        margin-top: 30px;
+        font-size: 1.1rem;
+        font-weight: 500;
+        padding-left: 20px;
+        color: #8b8b8b;
+    }
+
+    .third p {
+        margin-top: 30px;
+        font-size: 1.1rem;
+        font-weight: 500;
+        color: #bd5d38;
+        margin-left: 20px;
+    }
+
+    #skills {
+        padding-top: 180px;
+        margin-bottom: 180px;
+    }
+
+    #skills .extra {
+        margin-left: 20px;
+
+    }
+
+    #skills .extra ul {
+        list-style: none;
+        padding-top: 25px;
+        color: #8b8b8b;
+        font-weight: 500;
+        font-size: 17px;
+    }
+
+    #skills .extra ul span {
+        color: #495057;
+    }
+
+    .one h1 {
+        color: #343a40;
+        font-size: 2rem;
+        margin-left: 20px;
+    }
+
+    .two p {
+        font-weight: 500;
+        color: #8b8b8b;
+        font-size: 21px;
+        margin-top: 15px;
+        color: #495057;
+        text-transform: uppercase;
+        margin-left: 20px;
+    }
+    
+
+    .three {
+        display: flex;
+        margin-left: 30px;
+        gap: 25px;
+        margin-top: 30px;
+    }
+
+    .three svg {
+        width: 40px;
+    }
+
+    .three1 svg {
+        width: 55px;
+    }
+
+    .three2 svg {
+        width: 40px;
+    }
+
+    #expertise {
+        padding-top: 250px;
+        margin-bottom: 250px;
+    }
+
+    .a h1 {
+        color: #343a40;
+        font-size: 2rem;
+        margin-left: 25px;
+    }
+
+    #expertise ul {
+        margin-left: 50px;
+        margin-top: 30px;
+        font-size: 18px;
+        color: #495057;
+        font-weight: 400;
+    }
+
+    #courses {
+        padding-top: 250px;
+        margin-bottom: 250px;
+    }
+
+    .alif h1 {
+        color: #343a40;
+        font-size: 2rem;
+        margin-left: 25px;
+    }
+
+    #courses ul {
+        margin-left: 45px;
+        margin-top: 30px;
+        font-size: 18px;
+        color: #495057;
+        font-weight: 400;
+    }
+}
+#about h1 span {
+    color: #bd5d38;
+}
+
+
+#about p a {
+    color: #bd5d38;
+    text-decoration: none;
+}
+
+#about p a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+.container p span {
+    color: #bd5d38;
+}
+
+.typing-text::after {
+    content: '|';
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+
+
+.icons a {
+    display: inline-block;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #fff !important;
+    margin: 10px;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+}
+
+.icons a svg {
+    margin-top: 13px;
+}
+
+.icons a:hover {
+    background-color: #bd5d38;
+}
+
+
+
+#checkbtn {
+    border: 2px solid rgba(255, 255, 255, 0.363);
+    width: 32px;
+    height: 30px;
+    margin-top: 12px;
+    float: right;
+    line-height: 30px;
+    margin-right: 15px;
+    font-size: 25px;
+    color: rgba(255, 255, 255, .5);
+
+}
+
+#check {
+    display: none;
+}
+
+#check:checked~ul {
+    left: 0;
+}
